@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research | Phani</title>
+    <link>https://phanikishoreg.github.io/post/</link>
+      <atom:link href="https://phanikishoreg.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020 Phani Kishore Gadepalli</copyright>
+    <image>
+      <url>https://phanikishoreg.github.io/img/dp.png</url>
+      <title>Research</title>
+      <link>https://phanikishoreg.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>aWsm</title>
+      <link>https://phanikishoreg.github.io/post/awsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://phanikishoreg.github.io/post/awsm/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Existing virtual machine and container-based serverless frameworks provide multi-tenant isolation through heavy-weight methods with high memory footprint and resource utilization, which limit the utility on resource-constrained edge systems. These frameworks often fail to provide the low and near real-time latencies required by edge computing applications driven by the proliferation of internet of thing (IoT) devices, sensors and robots.&lt;/p&gt;
+&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
+&lt;p&gt;A novel WebAssembly-based, serverless runtime that leverages our LLVM-IR based WebAssembly compiler to enable lightweight WebAssembly sandboxes providing memory-safety and control-flow integrity for multitenant serverless executions. The single process, aWsm serverless runtime enables scalable multi-core execution using a work-stealing deque and enables near real-time latencies and strong temporal isolation of multitenant workload. aWsm provides configurable function scheduling at user-level and asynchronous, event-driven I/O, effectively &lt;em&gt;bypassing the Linux kernel&lt;/em&gt; for function execution control.&lt;/p&gt;
+&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The design and implementation of a single process serverless runtime providing efficient, scalable, low latency, and high throughput execution of WebAssembly functions.&lt;/li&gt;
+&lt;li&gt;An extensive evaluation of our serverless framework with varying workloads and real-world serverless applications to demonstrate up to 4 times higher throughput and 4 times lower latencies compared to Nuclio (one of the best performing open-source serverless frameworks).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Built the single process WebAssembly function runtime with preemption capabilities for multitenant function isolation and integrated with scalable work-stealing deque and &lt;em&gt;libuv&lt;/em&gt; event-driven I/O.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chaos</title>
+      <link>https://phanikishoreg.github.io/post/chaos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://phanikishoreg.github.io/post/chaos/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Embedded systems are increasingly required to provide both complicated feature-sets, and high-confidence in the correctness of mission-critical computations. Multi-core systems complicate the isolation between subsystems of different assurance levels (degree of confidence that a code meets its specification). The kernel data-structures shared between cores like scheduler run-queues, etc, and the Inter-Processor Interrupts (IPIs) used for message passing between cores, can induce unbounded interference on the high-assurance, high-criticality tasks.&lt;/p&gt;
+&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
+&lt;p&gt;This research introduces Chaos, which is designed to devirtualize high-criticality tasks, a process that exports them out of possibly low-assurance subsystems that host low-assurance tasks, to remove interference due to the shared subsystem. Such tasks are imported into a ChaosRT execution environment with minimal controlled interference and strictly predictable execution, while leveraging the high-functionality of low-assurance code via proxies. The proxies implement IPI rate-limiting servers where appropriate to bound the cross-core interference.&lt;/p&gt;
+&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The design and implementation of devirtualization and ChaosRT to extract high-criticality subsystems from lower-assurance legacy systems &amp;ndash; while maintaining functional dependencies via proxies &amp;ndash; and predictable inter-core message passing mechanisms using IPI rate-limiting servers.&lt;/li&gt;
+&lt;li&gt;The NASA&amp;rsquo;s core Flight System (cFS) implementation in Chaos devirtualizing the OpenSatKit and the high-criticality safety controller applications from the cFS middleware while leveraging the Rumpkernel unikernel (NetBSD drivers) for communication with the ground station via proxies.&lt;/li&gt;
+&lt;li&gt;Evaluation of Chaos and different reliability focused systems like Composite, Fiasco.OC, seL4 and Linux with real-time patch to study the predictability and bounded interference properties, and evaluation of cFS on Chaos and Linux with real-time patch to show that Chaos lowers the sensor processing latency by a factor of 2.7 and 3.5 for average and worst-case respectively compared to Linux.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Built the minimal ChaosRT runtime for predictable execution of high-criticality tasks and proxies for inter-assurance coordination leveraging synchronous or asynchronous coordination techniques in Composite kernel.&lt;/li&gt;
+&lt;li&gt;Built the IPI rate-limiting servers for controlled interference from low-assurance software on the high-criticality tasks and the polling mechanism to process the requests for dropped IPIs.&lt;/li&gt;
+&lt;li&gt;Implemented NASA&amp;rsquo;s core Flight System (cFS) in Chaos by devirtualizing different cFS, OpenSatKit applications and the safety controller application and enabled proxies between them and cFS or NetBSD drivers for leveraging the functionality from these subsystems.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slite</title>
+      <link>https://phanikishoreg.github.io/post/slite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://phanikishoreg.github.io/post/slite/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Despite the flux in system capabilities and requirements, scheduling has maintained the same essential structure since the first systems that required temporal multiplexing. We argue that the kernel-based implementation of scheduling policy is the key inhibitor to configurable policy which is preventing a tighter co-design of applications, systems, and schedulers.&lt;/p&gt;
+&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
+&lt;p&gt;This research allows direct user-level thread switches to cause incoherence with the kernel’s notion of the currently active thread. Later, the kernel recovers coherence when activated. We pair this with non-blocking OS APIs, even for Inter-Process Communication (IPC), to enable the system-level scheduling of threads that execute across different protection domains. By providing efficient access to timing policy at user-level, this technique counters the intuition that extracting a policy from the kernel decreases performance.&lt;/p&gt;
+&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The design and implementation of the efficient, predictable user-level scheduling of system threads.&lt;/li&gt;
+&lt;li&gt;The application of user-level scheduling technique to a RTOS that demonstrates on par performance compared to a kernel-resident FreeRTOS, while providing strong isolation on embedded microcontrollers.&lt;/li&gt;
+&lt;li&gt;The application of user-level scheduling technique to a OpenMP parallel runtime that integrates tasks with thread scheduling to demonstrate strong work-conservation properties, showing application performance comparable to an existing OpenMP runtime, GOMP (an OpenMP implementation for GCC) on Linux with a real-time patch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Built kernel and user-level scheduling mechanism to share pages between them to track a minimal trusted-control block (TCB) necessary for thread execution, and active thread at the user-level for lazy-incoherence.&lt;/li&gt;
+&lt;li&gt;Built common OS primitives like message queues and locks at user-level, leveraging the near zero-cost user-level thread switches and a parallel runtime that integrates tasks with thread based scheduling using work-stealing deque for work-conserving parallel execution in OpenMP.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TCaps</title>
+      <link>https://phanikishoreg.github.io/post/tcaps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://phanikishoreg.github.io/post/tcaps/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Embedded systems are increasingly required to handle code of various qualities that must often be isolated, yet predictably share resources. This has motivated the isolation of, for example, mission-critical code from best-effort features using isolation structures such as virtualization. The driver VM (Dom0 in Xen) that multiplexes I/O between VMs exhibits significant interference as the I/O processing in driver VM are not properly accounted to the VMs that request for I/O.&lt;/p&gt;
+&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
+&lt;p&gt;This research introduces Temporal Capabilities (TCaps), an abstraction that enables the user-level control of access to processing time that provides a principled means for distributing and restricting time management responsibilities between isolated subsystems. TCaps enable the inter-subsystem delegations of a non-replenishable processing time and track multiple priorities from different subsystem schedulers that are involved in the delegation path. These multiple priorities are used to control preemption decisions to vector interrupts directly to their subsystems.&lt;/p&gt;
+&lt;h2 id=&#34;contributions&#34;&gt;Contributions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The design and implementation of TCap mechanism in the Composite kernel and implementation of user-level scheduling library leveraging TCap capability-based access control for time and inter-scheduler coordination.&lt;/li&gt;
+&lt;li&gt;The implementation of the driver VM leveraging Rumpkernel unikernel (NetBSD drivers) for multiplexing I/O and the hypervisor for cycle-accurate accounting and scheduling of user VMs.&lt;/li&gt;
+&lt;li&gt;Evaluation of the predictability and throughput properties of TCap mechanism using virtualization and TCaps for inter-VM delegation (the driver VM is only activated by the requests from the user VMs via TCap inter-scheduler delegation) compared to Xen based virtualization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Built the TCap capability mechanism in the kernel to track the timeslice and array of priorities from various TCap delegations with each TCap.&lt;/li&gt;
+&lt;li&gt;Built a hypervisor with user-level scheduling to accurately track and replenish the budgets of different user VMs in the virtualization environment.&lt;/li&gt;
+&lt;li&gt;Modified the Rumpkernel unikernel (NetBSD drivers) to leverage Composite user-level scheduling library and enabled inter-VM coordination between user and driver VM to leverage the TCap inter-scheduler delegation to pass time for request processing.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

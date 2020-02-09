@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lucas Baier | Phani</title>
+    <link>https://phanikishoreg.github.io/authors/lucas-baier/</link>
+      <atom:link href="https://phanikishoreg.github.io/authors/lucas-baier/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lucas Baier</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020 Phani Kishore Gadepalli</copyright><lastBuildDate>Wed, 06 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://phanikishoreg.github.io/img/dp.png</url>
+      <title>Lucas Baier</title>
+      <link>https://phanikishoreg.github.io/authors/lucas-baier/</link>
+    </image>
+    
+    <item>
+      <title>Temporal Capabilities: Access Control for Time</title>
+      <link>https://phanikishoreg.github.io/publication/rtss17tcaps/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://phanikishoreg.github.io/publication/rtss17tcaps/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

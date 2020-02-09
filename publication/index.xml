@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Phani</title>
+    <link>https://phanikishoreg.github.io/publication/</link>
+      <atom:link href="https://phanikishoreg.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020 Phani Kishore Gadepalli</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://phanikishoreg.github.io/img/dp.png</url>
+      <title>Publications</title>
+      <link>https://phanikishoreg.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Challenges and Opportunities for Efficient Serverless Computing at the Edge</title>
+      <link>https://phanikishoreg.github.io/publication/srds19challenges/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://phanikishoreg.github.io/publication/srds19challenges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chaos: a System for Criticality-Aware, Multi-core Coordination</title>
+      <link>https://phanikishoreg.github.io/publication/rtas19chaos/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://phanikishoreg.github.io/publication/rtas19chaos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Component-based OS Design for Dependable Cyber-Physical Systems</title>
+      <link>https://phanikishoreg.github.io/publication/ngocps19coscps/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://phanikishoreg.github.io/publication/ngocps19coscps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal Capabilities: Access Control for Time</title>
+      <link>https://phanikishoreg.github.io/publication/rtss17tcaps/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://phanikishoreg.github.io/publication/rtss17tcaps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aWsm: an Efficient Serverless Wasm Runtime for the Edge (in submission)</title>
+      <link>https://phanikishoreg.github.io/publication/usenixatc20awsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://phanikishoreg.github.io/publication/usenixatc20awsm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slite: OS Support for Near Zero-Cost, Configurable Scheduling (in submission)</title>
+      <link>https://phanikishoreg.github.io/publication/rtas20slite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://phanikishoreg.github.io/publication/rtas20slite/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

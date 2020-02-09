@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rob Aitken | Phani</title>
+    <link>https://phanikishoreg.github.io/authors/rob-aitken/</link>
+      <atom:link href="https://phanikishoreg.github.io/authors/rob-aitken/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rob Aitken</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020 Phani Kishore Gadepalli</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://phanikishoreg.github.io/img/dp.png</url>
+      <title>Rob Aitken</title>
+      <link>https://phanikishoreg.github.io/authors/rob-aitken/</link>
+    </image>
+    
+    <item>
+      <title>Challenges and Opportunities for Efficient Serverless Computing at the Edge</title>
+      <link>https://phanikishoreg.github.io/publication/srds19challenges/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://phanikishoreg.github.io/publication/srds19challenges/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
