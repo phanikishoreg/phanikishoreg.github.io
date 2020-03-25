@@ -5,12 +5,20 @@
     <link>https://phanikishoreg.github.io/authors/admin/</link>
       <atom:link href="https://phanikishoreg.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Phani</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020 Phani Kishore Gadepalli</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020 Phani Kishore Gadepalli</copyright><lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://phanikishoreg.github.io/img/dp.png</url>
       <title>Phani</title>
       <link>https://phanikishoreg.github.io/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>Slite: OS Support for Near Zero-Cost, Configurable Scheduling</title>
+      <link>https://phanikishoreg.github.io/publication/rtas20slite/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://phanikishoreg.github.io/publication/rtas20slite/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Challenges and Opportunities for Efficient Serverless Computing at the Edge</title>
@@ -49,14 +57,6 @@
       <link>https://phanikishoreg.github.io/publication/usenixatc20awsm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://phanikishoreg.github.io/publication/usenixatc20awsm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Slite: OS Support for Near Zero-Cost, Configurable Scheduling (in submission)</title>
-      <link>https://phanikishoreg.github.io/publication/rtas20slite/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://phanikishoreg.github.io/publication/rtas20slite/</guid>
       <description></description>
     </item>
     
