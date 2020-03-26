@@ -5,7 +5,7 @@
     <link>https://phanikishoreg.github.io/authors/sean-mcbride/</link>
       <atom:link href="https://phanikishoreg.github.io/authors/sean-mcbride/index.xml" rel="self" type="application/rss+xml" />
     <description>Sean McBride</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020 Phani Kishore Gadepalli</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020 Phani Kishore Gadepalli</copyright><lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://phanikishoreg.github.io/img/dp.png</url>
       <title>Sean McBride</title>
@@ -15,7 +15,7 @@
     <item>
       <title>aWsm: an Efficient Serverless Wasm Runtime for the Edge (in submission)</title>
       <link>https://phanikishoreg.github.io/publication/usenixatc20awsm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://phanikishoreg.github.io/publication/usenixatc20awsm/</guid>
       <description></description>
     </item>
