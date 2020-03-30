@@ -5,20 +5,12 @@
     <link>https://phanikishoreg.github.io/authors/gregor-peach/</link>
       <atom:link href="https://phanikishoreg.github.io/authors/gregor-peach/index.xml" rel="self" type="application/rss+xml" />
     <description>Gregor Peach</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020 Phani Kishore Gadepalli</copyright><lastBuildDate>Wed, 25 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020 Phani Kishore Gadepalli</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://phanikishoreg.github.io/img/dp.png</url>
       <title>Gregor Peach</title>
       <link>https://phanikishoreg.github.io/authors/gregor-peach/</link>
     </image>
-    
-    <item>
-      <title>aWsm: an Efficient Serverless Wasm Runtime for the Edge (in submission)</title>
-      <link>https://phanikishoreg.github.io/publication/usenixatc20awsm/</link>
-      <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://phanikishoreg.github.io/publication/usenixatc20awsm/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Challenges and Opportunities for Efficient Serverless Computing at the Edge</title>
